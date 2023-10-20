@@ -1,0 +1,58 @@
+div#respuesta{
+    display: none;
+}
+
+.caja{
+    width: 300px;
+    height: 100px;
+    position: sticky;
+    top: 50px; left: 100px;
+}
+
+/* Estilo para centrar el título */
+h1 {
+    text-align: center;
+    color:rgb(14, 93, 249);
+    font-size: 100px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+/* Estilo para los campos de entrada */
+.form-control {
+    margin: 12px 0;
+}
+
+/* Estilo para la caja principal */
+.caja {
+    max-width: 400px; /* Ancho máximo de la caja */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+/* Estilo para la opción seleccionada en el menú desplegable */
+.form-selct {
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Estilo para el botón de la calculadora */
+.btn {
+    width: 100%;
+    margin: 10px 0;
+    background-color: rgb(245, 8, 245);
+    color: azure;
+}
+
+/* Estilo para el resultado */
+#respuesta {
+    background-color: #81e51e;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+    font-family: Arial, sans-serif;
+    border-radius: 10px;
+}
+
