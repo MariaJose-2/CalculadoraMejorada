@@ -1,58 +1,60 @@
-div#respuesta{
+/* Estilo para el elemento con ID "respuesta" que inicialmente esta oculto */
+div#respuesta {
     display: none;
 }
 
-.caja{
-    width: 300px;
-    height: 100px;
-    position: sticky;
-    top: 50px; left: 100px;
-}
-
-/* Estilo para centrar el título */
-h1 {
-    text-align: center;
-    color:rgb(14, 93, 249);
-    font-size: 100px;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-/* Estilo para los campos de entrada */
-.form-control {
-    margin: 12px 0;
-}
-
-/* Estilo para la caja principal */
+/* Estilo para el contenedor principal con la clase "caja" */
 .caja {
-    max-width: 400px; /* Ancho máximo de la caja */
-    margin: 0 auto; /* Centrar horizontalmente */
-    padding: 20px;
-    background-color: #f9f9f9;
-    border-radius: 10px;
+    width: 300px; /* Ancho de 300 pixeles */
+    height: 100px; /* Altura de 100 pixeles */
+    position: sticky; /* Posicion pegajosa al hacer scroll */
+    top: 50px; /* Distancia desde la parte superior de la ventana */
+    left: 100px; /* Distancia desde el borde izquierdo de la ventana */
 }
 
-/* Estilo para la opción seleccionada en el menú desplegable */
+/* Estilo para centrar el titulo h1 */
+h1 {
+    text-align: center; /* Centrar el texto */
+    color: rgb(14, 93, 249); /* Color del texto */
+    font-size: 100px; /* Tamaño de fuente de 100 pixeles */
+    font-family: Georgia, 'Times New Roman', Times, serif; /* Tipo de fuente */
+}
+
+/* Estilo para los campos de entrada con la clase "form-control" */
+.form-control {
+    margin: 12px 0; /* Margenes superior e inferior de 12 pixeles, 0 en los lados */
+}
+
+/* Estilo para el contenedor principal con la clase "caja" */
+.caja {
+    max-width: 400px; /* Ancho maximo de la caja */
+    margin: 0 auto; /* Centrar horizontalmente con margen automatico */
+    padding: 20px; /* Relleno interno de 20 pixeles */
+    background-color: #f9f9f9; /* Color de fondo gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Estilo para la opcion seleccionada en el menu desplegable con la clase "form-select" */
 .form-selct {
-    width: 100%;
-    margin: 10px 0;
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    margin: 10px 0; /* Margenes superior e inferior de 10 pixeles, 0 en los lados */
 }
 
-/* Estilo para el botón de la calculadora */
+/* Estilo para el boton con la clase "btn" */
 .btn {
-    width: 100%;
-    margin: 10px 0;
-    background-color: rgb(245, 8, 245);
-    color: azure;
+    width: 100%; /* Ancho del 100% del contenedor padre */
+    margin: 10px 0; /* Margenes superior e inferior de 10 pixeles, 0 en los lados */
+    background-color: rgb(245, 8, 245); /* Color de fondo */
+    color: azure; /* Color del texto */
 }
 
-/* Estilo para el resultado */
+/* Estilo para el resultado con el ID "respuesta" */
 #respuesta {
-    background-color: #81e51e;
-    color: white;
-    font-size: 24px;
-    text-align: center;
-    padding: 10px;
-    font-family: Arial, sans-serif;
-    border-radius: 10px;
+    background-color: #81e51e; /* Color de fondo verde */
+    color: white; /* Color del texto blanco */
+    font-size: 24px; /* Tamaño de fuente de 24 pixeles */
+    text-align: center; /* Centrar el texto */
+    padding: 10px; /* Relleno interno de 10 pixeles */
+    font-family: Arial, sans-serif; /* Tipo de fuente */
+    border-radius: 10px; /* Bordes redondeados */
 }
-

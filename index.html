@@ -12,22 +12,28 @@
     <!-- Enlace al archivo JavaScript de Bootstrap -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Enlace al archivo de estilos personalizado -->
     <link rel="stylesheet" href="style.css">
      
 </head>
 <body>
     <!-- Enlace al archivo JavaScript de la calculadora -->
     <script src="calculadora.js"></script>
-    <h1 style="text-align: center;">trabajo con javascript</h1>
-    <div class="caja"> <!-- contenedor principal -->
 
-    <!-- Campo de entrada para el primer y segundo número -->
+    <!-- Encabezado -->
+    <h1 style="text-align: center;">trabajo con javascript</h1>
+
+    <!-- contenedor principal -->
+    <div class="caja"> 
+
+    <!-- Campos de entrada para el primer y segundo numero -->
     <input type="number" id="n1" class="form-control" placeholder="numero 1"/> <br/>
     <input type="number" id="n2" class="form-control" placeholder="numero 1"/> <br/>
 
-    <!-- Menú desplegable para seleccionar la operación -->
+    <!-- Menu desplegable para seleccionar la operacion -->
     <select class="form-selct" aria-label="defaul select example" id="opc">
-    <option selected> opcion</option> <!-- Opción predeterminada -->
+    <option selected> opcion</option> <!-- Opcion predeterminada -->
     <option value="1">sumar</option>
     <option value="2">restar</option>
     <option value="3">multiplicar</option>
@@ -36,10 +42,17 @@
     </select>
     <br>
     
+    <!-- Boton que ejecuta la funcion "mostrar" al hacer clic -->
     <button onclick="mostrar()" class="btn btn-outline-dark">calculadora</button>
+    
     <!-- mostrar el resultado total de las funciones -->
+    <!-- Contenedor de alerta para mostrar el resultado de las funciones -->
     <div class="alert alert-warning alert-dismissible fade show" role="alert" id="respuesta">
+
+    <!--Espacio para mostrar el resultado -->
     <strong id="resultado"></strong>
+
+    <!-- Boton de cierre para la alerta -->
     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="close"></button>
     </div>
     </div><!-- Fin del contenedor principal -->
